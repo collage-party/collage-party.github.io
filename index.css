@@ -6,7 +6,9 @@
 
 @font-face {
     font-family: 'comic sands';
-    src: url('font/ComicSands-Regular.otf') format('otf');
+    src: url('font/ComicSands-Regular.otf') format('otf'),
+    url('font/ComicSands-Regular.ttf') format('otf'),
+    url('font/ComicSands-Regular.woff') format('woff');
     font-style : normal;
 }
 
@@ -15,8 +17,7 @@
 @media screen and (min-width: 600px) {
 
     body{
-        font-family: 'comic sands';
-        font-style: normal;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         margin-left: 10%;
         margin-top: 10%;
         margin-right: 10%;
@@ -28,6 +29,8 @@
     }
 
     .list{
+        font-family: 'comic sands';
+        font-style: normal;
         color: #373737;
         font-size: 2vw;
         text-decoration: none;
@@ -37,11 +40,15 @@
     }
 
     .title1{
+        font-family: 'comic sands';
+        font-style: normal;
         color: #373737;
         font-size: 6vw;
     }
 
     .body1{
+        font-family: 'comic sands';
+        font-style: normal;
         color: #a6a6a6;
         font-size: 2vw;
     }
