@@ -10,34 +10,79 @@
     font-style : normal;
 }
 
-body{
-    font-family: 'comic sands';
-    font-style: normal;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-}
 
-a{
-    text-decoration: none;
-}
+/* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 600px) {
 
-li{
-    color: #373737;
-    font-size: 2vw;
-    text-decoration: none;
-    display: list-item;
-    list-style-type: "";
-    margin-bottom: 1%;
-}
+    body{
+        font-family: 'comic sands';
+        font-style: normal;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
 
-.title1{
-    color: #373737;
-    font-size: 6vw;
-}
+    a{
+        text-decoration: none;
+    }
 
-.body1{
-    color: #a6a6a6;
-    font-size: 2vw;
+    .list{
+        color: #373737;
+        font-size: 2vw;
+        text-decoration: none;
+        display: list-item;
+        list-style-type: "";
+        margin-bottom: 1%;
+    }
+
+    .title1{
+        color: #373737;
+        font-size: 6vw;
+    }
+
+    .body1{
+        color: #a6a6a6;
+        font-size: 2vw;
+    }
+
+
+}
+  
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+
+    body{
+        font-family: 'comic sands';
+        font-style: normal;
+        margin-top: 20%;
+        margin-left: 10%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .list{
+        color: #373737;
+        font-size: 8vw;
+        text-decoration: none;
+        display: list-item;
+        list-style-type: "";
+        margin-bottom: 0%;
+        margin-left: -15%;
+    }
+    
+    .title1{
+        color: #373737;
+        font-size: 10vw;
+    }
+    
+    .body1{
+        color: #a6a6a6;
+        font-size: 8vw;
+    }
+    
 }
