@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'comic sands';
+    src: url('font/ComicSands-Bold.otf') format('otf');
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'comic sands';
+    src: url('font/ComicSands-Regular.otf') format('otf');
+    font-style : normal;
+}
+
+body{
+    font-family: 'comic sands';
+    font-style: normal;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    color: #373737;
+    font-size: 2vw;
+    text-decoration: none;
+    display: list-item;
+    list-style-type: "";
+    margin-bottom: 1%;
+}
+
+.title1{
+    color: #373737;
+    font-size: 6vw;
+}
+
+.body1{
+    color: #a6a6a6;
+    font-size: 2vw;
+}
