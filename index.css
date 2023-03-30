@@ -63,9 +63,10 @@
 
     .title3{
         font-family: 'comic sands';
-        color: #535353;
         font-size: 1.5vw;
         margin-left: 20%;
+        font-weight: 700;
+        color: #373737;
     }
 
     .body2{
